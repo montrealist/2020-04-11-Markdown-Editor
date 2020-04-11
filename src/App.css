@@ -16,6 +16,10 @@ body,
     right: 0;
 }
 
+/* .hero-body {
+    padding: 0 !important;
+} */
+
 @media (max-width: 800px) {
     .editor,
     .editor .ace_editor {
