@@ -3,9 +3,7 @@ import "./App.css";
 import Editor from "./Editor";
 
 import "react-bulma-components/dist/react-bulma-components.min.css";
-import { Columns } from "react-bulma-components";
-import { Content } from "react-bulma-components";
-import { Dropdown } from "react-bulma-components";
+import { Columns, Content, Dropdown } from "react-bulma-components";
 
 const themes = [
     "monokai",
