@@ -1,22 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import AceEditor from "react-ace";
 import "ace-builds/src-noconflict/mode-css";
+import "ace-builds/src-noconflict/mode-markdown";
 import "ace-builds/src-noconflict/theme-monokai";
 
-const Editor = () => {
-    const [styles, setStyles] = useState("");
-
-    const onChange = (newStyle) => {
-        setStyles(newStyle);
-    };
+const Editor = (props) => {
     return (
         <>
-            <style>{styles}</style>
             <AceEditor
-                mode="css"
+                mode="markdown"
                 theme="monokai"
-                onChange={onChange}
-                value={styles}
+                onChange={props.onChange}
+                value={props.value}
                 setOptions={{
                     showLineNumbers: true,
                 }}
