@@ -1,4 +1,4 @@
-.App-header {
+.app-header {
     background-color: #282c34;
     min-height: 10vh;
     display: flex;
@@ -7,4 +7,25 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.editor,
+.result {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.editor {
+    border-right: 1px solid #d9d9d9;
+}
+
+.result {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }

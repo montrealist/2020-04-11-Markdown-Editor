@@ -10,8 +10,8 @@ function App() {
     const [input, setInput] = useState(initialInput);
 
     return (
-        <div className="App">
-            <header className="App-header">Markdown Editor</header>
+        <div className="app">
+            <header className="app-header">Markdown Editor</header>
             <main>
                 <div className="editor">
                     <Editor value={input} onChange={setInput} />
