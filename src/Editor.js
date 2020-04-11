@@ -8,7 +8,7 @@ const Editor = (props) => {
         <>
             <AceEditor
                 mode="markdown"
-                theme="chrome"
+                theme={props.theme}
                 onChange={props.onChange}
                 value={props.value}
                 width="100%"
