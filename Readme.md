@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Features
+
+-   Instant preview of your Markdown
+-   Responsive
+-   Dynamically change editor theme
+-   Uses Bulma CSS via react-bulma-components
+
 ## Demo
 
 Right here: https://2020-04-11-markdown-editor-one.now.sh/
