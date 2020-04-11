@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import "./App.css";
 import Editor from "./Editor";
+import { sample } from "./SampleMarkdown";
 
 import "react-bulma-components/dist/react-bulma-components.min.css";
 import { Columns, Content, Dropdown } from "react-bulma-components";
+
+const ReactMarkdown = require("react-markdown");
 
 const themes = [
     "monokai",
@@ -20,13 +23,8 @@ const themes = [
 
 themes.forEach((theme) => require(`ace-builds/src-noconflict/theme-${theme}`));
 
-const ReactMarkdown = require("react-markdown");
-
-const initialInput = "# This is a header\n\nAnd this is a paragraph";
-
 function App() {
-    const [input, setInput] = useState(initialInput);
-
+    const [input, setInput] = useState(sample);
     const [theme, setTheme] = useState("chrome");
 
     return (
