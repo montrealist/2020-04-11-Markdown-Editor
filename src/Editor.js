@@ -11,6 +11,11 @@ const Editor = (props) => {
                 theme="chrome"
                 onChange={props.onChange}
                 value={props.value}
+                width="100%"
+                height="100%"
+                showPrintMargin={false}
+                name="ace-editor"
+                editorProps={{ $blockScrolling: false }}
                 setOptions={{
                     showLineNumbers: true,
                 }}
