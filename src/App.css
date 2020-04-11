@@ -1,7 +1,31 @@
 html,
-body {
+body,
+#root,
+.app,
+.columns {
     height: 100%;
 }
+
+#root,
+.app,
+.columns {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width: 800px) {
+    .editor,
+    .editor .ace_editor {
+        min-height: 500px;
+    }
+}
+
+/* .app {
+    background-color: yellow;
+} */
 
 .app-header {
     background-color: #282c34;
@@ -14,23 +38,6 @@ body {
     color: white;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-}
-
-.editor,
-.result {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.editor {
-    border-right: 1px solid #d9d9d9;
-}
-
-.result {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
+/* .columns {
+    align-items: stretch;
+} */
