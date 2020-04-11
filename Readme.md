@@ -1,86 +1,68 @@
-# Today's Objective: Markdown Editor
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Prize
+## Available Scripts
 
-$25 CAD Amazon gift card + bragging rights.
+In the project directory, you can run:
 
-Tip: Read the [General Information Document](General%20Information.md) for more info on how to get started and submit.
+### `yarn start`
 
-## Objective
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Today's objective is to create your own Markdown Editor.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Markdown, as you probably already know, is a formatting language for text-based documents. This document is written in Markdown. You can see its source to get a taste for what Markdown looks like.
+### `yarn test`
 
-Some examples of Markdown Editors include:
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-* [StackEdit](https://stackedit.io/) (simple web-based)
-* [Dillinger](https://dillinger.io/) (simple web-based)
-* [Typora](https://typora.io/) (installed, with advanced features)
-* [hackmd](https://hackmd.io/) (this is a lot more than just a simple markdown editor)
+### `yarn build`
 
-## Requirements
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Create a Markdown editor, like the above, that has the following components:
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-* Input area
-* Compilation logic (you can use a library for this)
-* Preview panel (no need to do live preview, using a submit button is fine)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Also, you should try to have a good stylesheet for the output HTML (you can use something like Bootstrap, Bulma, etc.)
+### `yarn eject`
 
-### Bonus points
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-You get bonus points for any features other than the above that you can successfully demo. 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-For example:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-* Live preview (where your edits in the input area automatically show up in the preview panel)
-* Syntax highlighting for input area
-* Selectable themes for input area
-* Selectable themes for preview panel
-* Print to PDF
-* Locally installed (using Electron, for example)
-* Responsive design 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-That's it!
+## Learn More
 
-The most interesting, useful, and cool designs will have a chance of winning -- and they must be written well, too. So, get creative :-)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## How to build a simple markdown editor
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Building a markdown editor is remarkably simple. You can use libraries for a lot of the functionality, and stitch them together using JavaScript logic.
+### Code Splitting
 
-Here are some suggested components for the various components above:
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Input Area - Suggested Libraries
+### Analyzing the Bundle Size
 
-* CodeMirror
-* Ace Editor
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Compilation Logic
+### Making a Progressive Web App
 
-* [Showdown](https://github.com/showdownjs/showdown)
-* [markdown-it](https://github.com/markdown-it/markdown-it)
-* [markedjs](https://github.com/markedjs/marked)
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Preview Panel
+### Advanced Configuration
 
-Well, for this one, you just output the compiled HTML to the DOM. :-)
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-## Frameworks:
+### Deployment
 
-It is completely possible to build this using jQuery. You can use React, Vue, Angular if you wish.
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-## Restrictions
+### `yarn build` fails to minify
 
-* Your project must use JavaScript.
-
-There are no other restrictions.
-
-## Tips for success:
-
-1. The project is intentionally simple so you can focus on code quality.
-1. The requirements are intentionally minimalistic so you can get as creative as you'd like.
-1. You get a LOT of time for code review comments. So you can win even if you feel your project isn't great, simply on the strength of your code review comments!
-1. Keep in mind, 33% of your score is based on aesthetic appeal! So try to make it look nice.
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
